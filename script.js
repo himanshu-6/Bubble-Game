@@ -8,7 +8,7 @@ for(var i=1 ; i<161; i++){
  document.querySelector('#pbtm').innerHTML = clutter
 }
 
-var timer=6;
+var timer=60;
 function runTimer(){
     var time = setInterval(function(){
         if(timer>0){
