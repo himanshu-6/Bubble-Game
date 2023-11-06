@@ -42,7 +42,7 @@ document.querySelector('#pbtm').addEventListener("click" ,function(details){
     var clickedNum = Number(details.target.textContent);
     if(clickedNum==hitNum){
         increaseScore();
-        // makebubble();
+        makebubble();
         getnewHit();
     }
 
